@@ -1,0 +1,23 @@
+Entrada: número
+Saída : fatorial
+
+Início
+
+# Ler o número
+Escrever "Introduza um número: "
+
+#Calcular o fatorial de um Número
+Se número == 0 então
+	Escrever “ O fatorial do número ", número ," é 1”;
+Senão
+	i <- número - 1
+	fatorial <- número * i
+    enquanto i > 0 entao
+    i <- i - 1
+    fatorial <- fatorial * i
+	Fim enquanto
+fim se
+
+# Imprimir Resultado
+Escrever ""O fatorial do número", número , "é" , fatorial"
+fim
