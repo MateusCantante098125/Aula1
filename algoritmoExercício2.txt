@@ -8,8 +8,8 @@ Escrever "Introduza as coordenadas do ponto 1: "
 Escrever "Introduza as coordenadas do ponto 2: "
 
 # Calcular a distância entre os pontos 1 e 2
-Distancia <- raíz = ((x2 − x1)^2 + (y2 − y1)^2);
+Distancia <- raíz = ((x2 − x1)^2 + (y2 − y1)^2)
 
 # Imprimir Resultado
-Escrever “ A distancia entre os pontos é =”, distancia;
+Escrever “ A distancia entre os pontos é =”, distancia
 fim
