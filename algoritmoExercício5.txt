@@ -8,9 +8,9 @@ Escrever "Introduza um número: "
 
 # Calcular se um número é primo
 i <- 0
+n_divisoes <- 0
 faça
     i <- i + 1
-    n_divisoes <- 0
     se número%i == 0 então
         n_divisoes <- n_divisoes + 1
     senão 
