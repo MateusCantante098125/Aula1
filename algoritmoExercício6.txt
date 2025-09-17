@@ -1,0 +1,29 @@
+Entrada: nome,nota
+Saída : media,nome_melhor
+
+Início
+
+# Calcular média
+n_notas <- 0
+nota_melhor <- 0
+Enquanto verdadeiro faça
+    # Ler o nome,turma,nota
+    nome <- Escrever "Introduza o seu nome: "
+    nota <- Escrever "Introduza a sua nota: "
+
+    se nota_melhor < nota entao:
+        nota_melhor <- nota
+        nome_melhor <- nome
+    fim se
+    Se nome == STOP então:
+        media <- media / n_notas
+    Senão
+    n_notas <- n_notas + 1
+    media <- media + nota
+    fim se
+fim enquanto
+
+# Imprimir Resultado
+Escrever "O melhor aluno foi o",nome_melhor
+Escrever "A média de notas foi",media
+fim
