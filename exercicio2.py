@@ -1,10 +1,10 @@
 from random import randrange
 
-a = randrange(1, 10)  # não pode ser 0 para evitar divisão por zero
+a = randrange(1, 10) 
 b = randrange(5, 20)
 c = randrange(5, 20)
 
-delta = b**2 - 4*a*c  # discriminante
+delta = b**2 - 4*a*c 
 
 if delta < 0:
     print("Não existem raízes reais")
