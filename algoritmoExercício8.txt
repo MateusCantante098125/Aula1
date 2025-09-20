@@ -1,0 +1,31 @@
+Entrada: valor,vetor
+Saída : 
+
+Início
+
+# Ler o número e vetor
+Escrever "Introduza o valor que deseja procurar: "
+Escrever "Digite o tamanho do vetor:"
+
+# Criar vetor 
+Para i ← 0 até (tamanho - 1) faça
+    Escrever "Digite o elemento", i, ":"
+    VETOR[i] ← elemento
+FimPara
+
+# Procurar o valor no vetor
+Função procurarValor (valor)
+    Para i ← 0 até (tamanho -1) faça
+        Se vetor[i] = valor então
+            aux <- 1
+        Senão
+            aux <- 0
+    FimPara
+
+# Imprimir Resultado
+Se aux = 1 então
+    Escrever "Valor",valor,"encontrado no vetor."
+Senão
+    Escrever "Valor não encontrado:"
+FimSe
+fim
