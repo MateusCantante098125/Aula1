@@ -16,12 +16,6 @@ while True:
     if nota_melhor < nota:
         nota_melhor = nota
         nome_melhor = nome
-    if nome == "STOP":
-        media = media / n_notas
-        break
-    else:
-        media = media + nota
-        n_notas = n_notas + 1
 
 print("O melhor aluno é o",nome_melhor)
 print("A média das notas foi de",media)
