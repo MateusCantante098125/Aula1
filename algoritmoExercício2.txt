@@ -1,0 +1,29 @@
+Entrada: {}
+Saída : resultado
+
+Início
+
+de random importa randrange
+
+# Atribuir valores ao a,b,c
+a <- número aleatório entre 1 e 10
+b <- número aleatório entre 5 e 20
+c <- número aleatório entre 5 e 20
+
+#Calcular o delta
+delta <- (b^2 - 4*a*c)
+
+# Imprimir Resultado
+Se delta < 0 então
+    Escrever "Não existem raízes reais"
+Senão
+	resultado1 ← (-b + raiz_quadrada(delta)) / (2 * a)
+	resultado2 ← (-b - raiz_quadrada(delta)) / (2 * a)
+
+	Escrever "Com o valor de a =", a
+	Escrever "Com o valor de b =", b
+	Escrever "Com o valor de c =", c
+	Escrever "O resultado da raiz é:", resultado1
+	Escrever "O resultado da raiz é:", resultado2
+   fim se
+fim
