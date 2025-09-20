@@ -23,4 +23,4 @@ media = (nota_matematica + nota_portugues + nota_ingles + nota_geografia) / 4
 if media >= 9.5:
     print("Aprovado", media, "valores")
 else:
-    print("Reprovado")
+    print("Reprovado", media, "valores")
