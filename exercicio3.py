@@ -2,7 +2,7 @@ lista = []
 menores = []
 n_elementos = int(input("Qual o tamanho da lista? "))
 
-for i in range(n_elementos+1):
+for i in range(n_elementos):
     aux = int(input("Digite um número: "))
     lista.append(aux)
 
