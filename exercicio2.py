@@ -1,8 +1,6 @@
 lista = []
 menores = []
-n_elementos = 3
-repeticoes = 0
-maior = 0
+n_elementos = int(input("Digite a quantidade de números que você quer ordenar: "))
 
 for i in range(n_elementos+1):
     aux = int(input("Digite um número: "))
