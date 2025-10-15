@@ -1,13 +1,13 @@
 lista = []
 menores = []
-n_elementos = int(input("Digite a quantidade de números que você quer ordenar: "))
+n_elementos = int(input("Qual o tamanho da lista? "))
 
-for i in range(n_elementos+1):
+for i in range(n_elementos):
     aux = int(input("Digite um número: "))
     lista.append(aux)
 
 for i in range(n_elementos):
-    for j in range(i+1,n_elementos):
+    for j in range(i,n_elementos):
         if lista[i] > lista[j] and lista[j] != lista[i-1]:
             aux = lista[j]
             lista[j] = lista[i]
@@ -15,7 +15,7 @@ for i in range(n_elementos):
         else:
             continue
         
-                    
+      
             
 print(lista)
         
