@@ -1,4 +1,3 @@
-
 menu = {
     "1": "Novo Jogo",
     "2": "Carregar Jogo",
@@ -99,7 +98,7 @@ if opcao == "1":
                     print(tabuleiro[i][j], end=" | ")
                 print()
                 print("-" * 28)
-            print(f"\nJogador 1 venceu!\n")
+            print("\nJogador 1 venceu!\n")
             break
 
         # Verifica empate (sem espaços vazios)
@@ -180,7 +179,7 @@ if opcao == "1":
                     print(tabuleiro[i][j], end=" | ")
                 print()
                 print("-" * 28)
-            print(f"\nJogador 1 venceu!\n")
+            print("\nJogador 1 venceu!\n")
             break
 
         # Verifica empate (sem espaços vazios)
